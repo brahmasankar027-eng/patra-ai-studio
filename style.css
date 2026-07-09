@@ -461,3 +461,46 @@ max-width:650px;
 border-radius:20px;
 box-shadow:0 0 40px rgba(138,43,226,.5);
 }
+.categories{
+padding:80px 8%;
+text-align:center;
+}
+
+.categories h2{
+font-size:42px;
+color:#fff;
+margin-bottom:10px;
+}
+
+.categories p{
+color:#aaa;
+margin-bottom:40px;
+}
+
+.cat-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.cat-card{
+background:#171d33;
+padding:30px;
+border-radius:18px;
+border:1px solid #2b3355;
+transition:.3s;
+}
+
+.cat-card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 25px #7b2cff;
+}
+
+.cat-card h3{
+color:#fff;
+margin-bottom:12px;
+}
+
+.cat-card p{
+color:#bbb;
+}
