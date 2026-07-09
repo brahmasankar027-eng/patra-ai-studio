@@ -54,13 +54,15 @@ nav a:hover{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    gap:60px;
+    gap:80px;
+    max-width:1200px;
+    margin:auto;
     flex-wrap:wrap;
 }
 
 .hero-left{
     flex:1;
-    min-width:300px;
+    min-width:320px;
 }
 
 .hero-right{
@@ -70,10 +72,15 @@ nav a:hover{
 }
 
 .hero-right img{
-    width:420px;
+    width:450px;
     max-width:100%;
     border-radius:20px;
-    box-shadow:0 0 30px #00e5ff;
+    box-shadow:0 0 35px #00e5ff;
+}
+
+.hero-left h1{
+    font-size:60px;
+    line-height:1.1;
 }
 
 
