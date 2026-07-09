@@ -76,27 +76,14 @@ nav a:hover{
     box-shadow:0 0 30px #00e5ff;
 }
 
-.hero-content{
-    display:flex;
-    align-items:center;
-    gap:50px;
-    flex-wrap:wrap;
-    justify-content:center;
-}
+
 
 .profile{
     width:220px;
     height:220px;
     border-radius:50%;
     border:5px solid #00e5ff;
-    object-fit:cover;
-}
-
-.hero-text{
-    max-width:600px;
-}
-
-.hero-text h1{
+    
     font-size:48px;
     margin-bottom:10px;
 }
