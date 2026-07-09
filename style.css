@@ -521,3 +521,30 @@ margin-bottom:12px;
 .cat-card p{
 color:#bbb;
 }
+.hero::before{
+    content:"";
+    position:absolute;
+    width:500px;
+    height:500px;
+    background:#6a5cff;
+    filter:blur(180px);
+    opacity:.25;
+    top:80px;
+    right:50px;
+    border-radius:50%;
+}
+
+.hero{
+    position:relative;
+    overflow:hidden;
+}
+
+.hero-right img{
+    width:500px;
+    border-radius:25px;
+    transition:.4s;
+}
+
+.hero-right img:hover{
+    transform:scale(1.05);
+}
