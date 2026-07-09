@@ -414,6 +414,46 @@ border-radius:12px;
 color:#fff;
 text-decoration:none;
 }
+header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:rgba(10,15,35,.85);
+backdrop-filter:blur(15px);
+z-index:999;
+box-sizing:border-box;
+}
+
+.logo{
+font-size:32px;
+font-weight:700;
+color:#00e5ff;
+}
+
+nav{
+display:flex;
+gap:30px;
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+font-weight:600;
+transition:.3s;
+}
+
+nav a:hover{
+color:#00e5ff;
+}
+
+body{
+padding-top:90px;
+}
 
 .hero-right img{
 width:100%;
