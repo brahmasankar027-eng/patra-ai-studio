@@ -602,3 +602,40 @@ color:#bbb;
     position:relative;
     z-index:2;
 }
+.floating-icons{
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+    z-index:1;
+}
+
+.floating-icons i{
+    position:absolute;
+    font-size:32px;
+    color:#fff;
+    opacity:.18;
+    animation: floatIcons 18s linear infinite;
+}
+
+.floating-icons i:nth-child(1){left:5%;animation-delay:0s;}
+.floating-icons i:nth-child(2){left:18%;animation-delay:2s;}
+.floating-icons i:nth-child(3){left:32%;animation-delay:4s;}
+.floating-icons i:nth-child(4){left:46%;animation-delay:6s;}
+.floating-icons i:nth-child(5){left:60%;animation-delay:8s;}
+.floating-icons i:nth-child(6){left:74%;animation-delay:10s;}
+.floating-icons i:nth-child(7){left:86%;animation-delay:12s;}
+.floating-icons i:nth-child(8){left:94%;animation-delay:14s;}
+
+@keyframes floatIcons{
+    0%{
+        transform:translateY(100vh) rotate(0deg);
+        opacity:0;
+    }
+    20%{
+        opacity:.2;
+    }
+    100%{
+        transform:translateY(-120px) rotate(360deg);
+        opacity:0;
+    }
+}
